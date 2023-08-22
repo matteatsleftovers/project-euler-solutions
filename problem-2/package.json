@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "index.ts",
+  "name": "problem-2",
+  "peerDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}
