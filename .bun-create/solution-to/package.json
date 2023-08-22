@@ -1,0 +1,18 @@
+{
+  "bun-create": {
+    "preinstall": "echo 'Setting things up...'",
+    "postinstall": [
+      "echo 'All set! Ready for you to solve this problem!'"
+    ]
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "index.ts",
+  "name": "solution-to",
+  "peerDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}
