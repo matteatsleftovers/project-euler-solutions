@@ -5,9 +5,7 @@ function findSumOfMultiples(
 ) {
   let sum = 0;
   for (let i = 0; i < upperLimit; i++) {
-    if (i % divisor1 == 0 || i % divisor2 == 0) {
-      sum += i;
-    }
+    if (i % divisor1 == 0 || i % divisor2 == 0) sum += i;
   }
   return sum;
 }
