@@ -23,4 +23,4 @@ function findLargestPrimeFactor(n: number = 600_851_475_143) {
   return largestPrimeFactor;
 }
 
-console.log(`Here is a solution: ${findLargestPrimeFactor(13195)}`);
+console.log(`Here is a solution: ${findLargestPrimeFactor()}`);
