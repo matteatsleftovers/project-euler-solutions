@@ -1,4 +1,4 @@
-function findLargestPrimeFactor(n: number = 600_851_475_143) {
+export function findLargestPrimeFactor(n: number = 600_851_475_143) {
   let largestPrimeFactor = n; // If it stays value n, it's prime!
   let i = 2; // Initialize as smallest prime number
   while (i * i <= n) {

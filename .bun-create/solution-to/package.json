@@ -5,9 +5,6 @@
       "echo 'All set! Ready for you to solve this problem!'"
     ]
   },
-  "devDependencies": {
-    "bun-types": "latest"
-  },
   "module": "index.ts",
   "name": "solution-to",
   "peerDependencies": {

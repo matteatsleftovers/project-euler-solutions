@@ -4,7 +4,7 @@ function fibonacci(n: number) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-function findSumOfEvenFibonaccis(upperLimit: number = 4_000_000) {
+export function findSumOfEvenFibonaccis(upperLimit: number = 4_000_000) {
   let sum = 0;
   for (let i = 0; fibonacci(i) < upperLimit; i++) {
     const fibonacciTerm = fibonacci(i);

@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "bun-types": "latest"
-  },
   "module": "index.ts",
   "name": "problem-2",
   "peerDependencies": {

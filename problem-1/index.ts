@@ -1,4 +1,4 @@
-function findSumOfMultiples(
+export function findSumOfMultiples(
   upperLimit: number = 1000,
   divisor1: number = 3,
   divisor2: number = 5
